@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Program
+    public class User
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("aaa");
-            User user = new User();
-        }
+        public int Id { get; set; }
     }
 }
